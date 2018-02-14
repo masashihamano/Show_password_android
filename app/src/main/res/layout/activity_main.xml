@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="misao.edu.show_password.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show password"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#00f"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/etPass"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:hint="Write password"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Show password"
+        android:id="@+id/checkbox1"
+        />
+
+
+    <EditText
+        android:id="@+id/etLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:hint="input ID"/>
+
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Show Login ID"
+        />
+
+</LinearLayout>
